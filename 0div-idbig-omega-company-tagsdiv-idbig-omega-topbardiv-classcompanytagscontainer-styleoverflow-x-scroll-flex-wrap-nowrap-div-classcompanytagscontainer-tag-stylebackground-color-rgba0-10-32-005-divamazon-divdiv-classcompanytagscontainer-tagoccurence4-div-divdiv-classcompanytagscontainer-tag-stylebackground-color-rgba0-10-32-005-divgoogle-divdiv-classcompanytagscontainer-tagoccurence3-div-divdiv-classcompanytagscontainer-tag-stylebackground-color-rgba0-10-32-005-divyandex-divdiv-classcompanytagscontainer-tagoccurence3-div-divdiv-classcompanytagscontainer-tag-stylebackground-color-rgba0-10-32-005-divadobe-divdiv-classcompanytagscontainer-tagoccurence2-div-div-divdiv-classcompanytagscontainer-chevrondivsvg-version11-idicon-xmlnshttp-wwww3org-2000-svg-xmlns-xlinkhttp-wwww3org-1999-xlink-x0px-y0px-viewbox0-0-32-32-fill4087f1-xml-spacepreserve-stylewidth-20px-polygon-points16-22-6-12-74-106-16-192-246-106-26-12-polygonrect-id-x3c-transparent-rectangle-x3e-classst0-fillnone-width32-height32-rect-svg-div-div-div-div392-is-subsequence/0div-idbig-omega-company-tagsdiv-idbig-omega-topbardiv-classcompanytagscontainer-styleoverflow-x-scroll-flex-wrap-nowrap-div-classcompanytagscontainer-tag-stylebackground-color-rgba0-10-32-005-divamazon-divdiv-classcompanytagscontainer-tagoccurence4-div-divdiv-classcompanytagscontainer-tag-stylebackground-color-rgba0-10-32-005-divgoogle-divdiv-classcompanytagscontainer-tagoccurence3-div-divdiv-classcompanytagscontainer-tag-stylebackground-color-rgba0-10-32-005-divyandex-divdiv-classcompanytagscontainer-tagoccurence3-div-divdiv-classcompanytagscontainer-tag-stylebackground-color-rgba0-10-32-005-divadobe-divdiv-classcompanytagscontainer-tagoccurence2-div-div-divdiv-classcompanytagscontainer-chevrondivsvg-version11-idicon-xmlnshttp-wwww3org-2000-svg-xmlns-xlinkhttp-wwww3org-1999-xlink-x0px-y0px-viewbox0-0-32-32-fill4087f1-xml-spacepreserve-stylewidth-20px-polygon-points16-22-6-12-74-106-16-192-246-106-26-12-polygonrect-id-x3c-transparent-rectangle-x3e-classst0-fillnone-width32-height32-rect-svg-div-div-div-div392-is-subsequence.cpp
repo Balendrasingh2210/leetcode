@@ -7,7 +7,7 @@ public:
                 start++;
             }
         }
-        if(start==(s.size())){
+        if(start==s.size()){
             return true;
         }
         return false;
